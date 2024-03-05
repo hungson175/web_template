@@ -1,0 +1,48 @@
+[
+  {
+    "route": "/crypto",
+    "is_route_dynamic": "false",
+    "method": "post",
+    "request_body": {
+      "id": "number",
+      "name": "string",
+      "price": "number"
+    },
+    "response": "None"
+  },
+  {
+    "route": "/crypto",
+    "is_route_dynamic": "false",
+    "method": "get",
+    "request_body": "None",
+    "response": [
+      {
+        "id": "number",
+        "name": "string",
+        "price": "number"
+      }
+    ]
+  },
+  {
+    "route": "/crypto",
+    "is_route_dynamic": "false",
+    "method": "put",
+    "request_body": {
+      "id": "number",
+      "name": "string",
+      "price": "number"
+    },
+    "response": "None"
+  },
+  {
+    "route": "/crypto/{id}",
+    "is_route_dynamic": "true",
+    "method": "get",
+    "request_body": "None",
+    "response": {
+      "id": "number",
+      "name": "string",
+      "price": "number"
+    }
+  }
+]
